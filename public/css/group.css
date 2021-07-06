@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+.section-group{
+    height:100vh;
+    width:100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(../images/layer4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.swiper-slide-content{
+    background-color: #ffc700;
+    width: 100%;
+    height: 530px;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.header-text-all-section{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+    margin: 4rem 0;
+}
+
+.swiper-button{
+    display: flex;
+    column-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.group-first-content{
+    display: flex;
+    column-gap: 30px;
+}
+.group-first-content .group-first-content-img{
+    width: 25%;
+
+}
+.group-first-content-img .student-img{
+    width: 102px;
+    height: 102px;
+    border-radius: 5px;
+}
+.group-first-content-img .student-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.group-first-content .group-first-content-text{
+    width: 75%;
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+    text-transform: uppercase;
+    justify-content: center;
+}
+.text-group-head{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.swiper-slide-content p{
+    font-family: Mada;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.swiper-slide-content h3{
+    font-family: Mada;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+.second-text-group-head{
+    position: absolute;
+    left: 40%; 
+    top: 0;
+}
+
+.group-second-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 30px;
+}
+.group-second-content .second-content-text{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+}
+.second-content-text .second-content-text-first{
+    width: 23%;
+}
+.second-content-text .second-content-text-second{
+    width: 73%;
+}
+
+@media(max-width: 1736px){
+    .section-group{
+        height:auto;
+        width:100%;
+        background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(../images/layer4.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat:no-repeat;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+
+@media(max-width: 1536px){
+    .section-group{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        height: 100vh;
+    }
+    
+    .swiper-slide-content{
+        width: 100%;
+        height: 25rem;
+        padding: 1.5rem;
+    }
+    .header-text-all-section{
+        font-size: 1.7rem;
+        line-height: 1.4;
+        margin: 3rem 0;
+    }
+    
+    .swiper-button{
+        column-gap: 1.5rem;
+        margin-top: 3rem;
+    }
+    .swiper-button svg{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    .group-first-content{
+        column-gap: 25px;
+    }
+    .group-first-content .group-first-content-img{
+        width: 22%;
+    
+    }
+    .group-first-content-img .student-img{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .group-first-content .group-first-content-text{
+        width: 73%;
+        row-gap: 0.8rem;
+    }
+    .swiper-slide-content p{
+        font-size: 0.7rem;
+        line-height: 1.3;
+    }
+    .swiper-slide-content h3{
+        font-size: 0.8rem;
+        line-height: 1.5;
+    }
+    .second-text-group-head{
+        left: 35%; 
+    }
+    
+    .group-second-content{
+        row-gap: 0.8rem;
+        margin-top: 1.5rem;
+    }
+    .group-second-content .second-content-text{
+        column-gap: 1.5rem;
+    }
+    .second-content-text .second-content-text-first{
+        width: 22%;
+    }
+    .second-content-text .second-content-text-second{
+        width: 73%;
+    }
+}
+
+@media(max-width: 1024px){
+    .section-group{
+        padding-top: 2.5rem;
+        padding-bottom: 3rem;
+        height: 100vh;
+    }
+    
+    .swiper-slide-content{
+        width: 100%;
+        height: 23rem;
+        padding: 1.5rem;
+    }
+    .header-text-all-section{
+        font-size: 1.5rem;
+        line-height: 1.4;
+        margin: 2.5rem 0;
+    }
+    
+    .swiper-button{
+        column-gap: 1.4rem;
+        margin-top: 3rem;
+    }
+    .swiper-button svg{
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    
+    .group-first-content{
+        column-gap: 20px;
+    }
+    .group-first-content .group-first-content-img{
+        width: 22%;
+    
+    }
+    .group-first-content-img .student-img{
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    
+    .group-first-content .group-first-content-text{
+        width: 73%;
+        row-gap: 0.8rem;
+    }
+    .swiper-slide-content p{
+        font-size: 0.6rem;
+        line-height: 1.3;
+    }
+    .swiper-slide-content h3{
+        font-size: 0.7rem;
+        line-height: 1.5;
+    }
+    .second-text-group-head{
+        left: 30%; 
+    }
+    
+    .group-second-content{
+        row-gap: 0.8rem;
+        margin-top: 1.5rem;
+    }
+    .group-second-content .second-content-text{
+        column-gap: 1.5rem;
+    }
+    .second-content-text .second-content-text-first{
+        width: 20%;
+    }
+    .second-content-text .second-content-text-second{
+        width: 73%;
+    }
+}
+
+@media(max-width: 648px){
+    .section-group{
+        padding-top: 2rem;
+        padding-bottom: 8rem;
+        height: 100%;
+    }
+    
+    .swiper-container{
+        padding: 0 5rem;
+    }
+    .swiper-slide-content{
+        width: 100%;
+        height: 20rem;
+        padding: 1.2rem;
+    }
+    .header-text-all-section{
+        font-size: 1.5rem;
+        line-height: 1.4;
+        margin: 2.5rem 0;
+    }
+    
+    .swiper-button{
+        column-gap: 1.4rem;
+        margin-top: 3rem;
+    }
+    .swiper-button svg{
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    
+    .group-first-content{
+        column-gap: 20px;
+    }
+    .group-first-content .group-first-content-img{
+        width: 22%;
+    
+    }
+    .group-first-content-img .student-img{
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    
+    .group-first-content .group-first-content-text{
+        width: 73%;
+        row-gap: 0.8rem;
+    }
+    .swiper-slide-content p{
+        font-size: 0.6rem;
+        line-height: 1.3;
+    }
+    .swiper-slide-content h3{
+        font-size: 0.7rem;
+        line-height: 1.5;
+    }
+    .second-text-group-head{
+        left: 30%; 
+    }
+    
+    .group-second-content{
+        row-gap: 0.8rem;
+        margin-top: 1.5rem;
+    }
+    .group-second-content .second-content-text{
+        column-gap: 1.5rem;
+    }
+    .second-content-text .second-content-text-first{
+        width: 20%;
+    }
+    .second-content-text .second-content-text-second{
+        width: 73%;
+    }
+}
+
+@media(max-width: 500px){
+    .section-group{
+        padding-top: 2rem;
+        padding-bottom: 8rem;
+        height: 100%;
+    }
+    
+    .swiper-container{
+        padding: 0 2rem;
+    }
+    .swiper-slide-content{
+        width: 100%;
+        height: 22rem;
+        padding: 1.2rem;
+    }
+    .header-text-all-section{
+        font-size: 1.3rem;
+        line-height: 1.4;
+        margin: 2.5rem 0;
+    }
+    
+    .swiper-button{
+        column-gap: 1.2rem;
+        margin-top: 2rem;
+    }
+    .swiper-button svg{
+        width: 1.1rem;
+        height: 1.1rem;
+    }
+    
+    .group-first-content{
+        column-gap: 20px;
+    }
+    .group-first-content .group-first-content-img{
+        width: 22%;
+    
+    }
+    .group-first-content-img .student-img{
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .group-first-content .group-first-content-text{
+        width: 73%;
+        row-gap: 0.6rem;
+    }
+    .swiper-slide-content p{
+        font-size: 0.6rem;
+        line-height: 1.2;
+    }
+    .swiper-slide-content h3{
+        font-size: 0.7rem;
+        line-height: 1.5;
+    }
+    .second-text-group-head{
+        left: 30%; 
+    }
+    
+    .group-second-content{
+        row-gap: 0.6rem;
+        margin-top: 1.5rem;
+    }
+    .group-second-content .second-content-text{
+        column-gap: 1.5rem;
+    }
+    .second-content-text .second-content-text-first{
+        width: 20%;
+    }
+    .second-content-text .second-content-text-second{
+        width: 73%;
+    }
+}

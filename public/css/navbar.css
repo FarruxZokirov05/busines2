@@ -1,0 +1,210 @@
+.navbar-menu a {
+    position: fixed;
+    right: -10px;
+    transition: 0.3s;
+    padding: 15px 70px;
+    width: 310px;
+    font-family: Mada;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #000000;
+    border-radius: 5px 0px 0px 5px;
+    background: #FFC700;
+    border: 5px solid rgba(0,0,0,0);
+    text-align: center;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    white-space: nowrap;
+    justify-content: center;
+    vertical-align: middle;
+    column-gap: 1rem;
+  }
+  .navbar-menu a svg{
+      width: 2.5rem;
+      height: 2.5rem;
+      display: none;
+  }
+  #mySidenav a:hover {
+    right: -10px;
+    border: 5px solid rgb(255,255,255, 0.5);
+  }
+  .navbar-menu a.active{
+    border: 5px solid rgb(255,255,255, 0.5);
+  }
+  .personal {
+    top: 80px;
+  }
+  .home {
+    top: 160px;
+  }
+  .students {
+    top: 240px;
+  }
+  .idea {
+    top: 320px;
+  }
+  .vacancy {
+    top: 400px;
+  }
+  .news {
+    top: 480px;
+  }
+  .navbar-menu.hide-menu a{
+      right: -230px;
+  }
+  .navbar-menu.hide-menu a svg{
+    display: flex;
+  }
+  nav.hide-menu a{
+      padding:7px 70px 7px 20px;
+      width: 310px;
+      justify-content: flex-start;
+      column-gap: 3rem;
+  }
+
+  /* max width 1536px */
+  @media(max-width: 1536px){
+    .navbar-menu a {
+        right: -10px;
+        padding: 0.7rem 3.2rem;
+        width: 14.5rem;
+        font-size: 0.9rem;
+        line-height: 1.1;
+        border: 5px solid rgba(0,0,0,0);
+      }
+      .navbar-menu a svg{
+          width: 1.8rem;
+          height: 1.8rem;
+      }
+      #mySidenav a:hover {
+        right: -10px;
+        border: 5px solid rgb(255,255,255, 0.5);
+      }
+      .personal {
+        top: 60px;
+      }
+      .home {
+        top: 120px;
+      }
+      .students {
+        top: 180px;
+      }
+      .idea {
+        top: 240px;
+      }
+      .vacancy {
+        top: 300px;
+      }
+      .news {
+        top: 360px;
+      }
+      .navbar-menu.hide-menu a{
+          right: -11.25rem;
+      }
+      nav.hide-menu a{
+          padding:0.2rem 2rem 7px 0.5rem;
+          width: 14.5rem;
+          column-gap: 1.5rem;
+      }
+  }
+
+   /* max width 1024px */
+   @media(max-width: 1024px){
+    .navbar-menu a {
+        right: -10px;
+        padding: 0.5rem 2rem;
+        width: 10rem;
+        font-size: 0.8rem;
+        line-height: 1;
+        border: 5px solid rgba(0,0,0,0);
+      }
+      .navbar-menu a svg{
+          width: 1.5rem;
+          height: 1.5rem;
+      }
+      #mySidenav a:hover {
+        right: -10px;
+        border: 5px solid rgb(255,255,255, 0.5);
+      }
+      .personal {
+        top: 50px;
+      }
+      .home {
+        top: 100px;
+      }
+      .students {
+        top: 150px;
+      }
+      .idea {
+        top: 200px;
+      }
+      .vacancy {
+        top: 250px;
+      }
+      .news {
+        top: 300px;
+      }
+      .navbar-menu.hide-menu a{
+          right: -9rem;
+      }
+      nav.hide-menu a{
+          padding:0.1rem 1rem 0.1rem 0.5rem;
+          width: 12rem;
+          column-gap: 1rem;
+      }
+  }
+
+   /* max width 768px */
+   @media(max-width: 768px){
+    .navbar-menu a {
+        right: -10px;
+        padding:0.1rem 1rem 0.1rem 0.5rem;
+        width: 10rem;
+        font-size: 0.7rem;
+        line-height: 1;
+        border: 5px solid rgba(0,0,0,0);
+        right: -7.5rem;
+        justify-content: flex-start;
+      }
+      .navbar-menu a svg{
+          width: 1.3rem;
+          height: 1.3rem;
+          display: flex;
+      }
+      #mySidenav a:hover {
+        right: -10px;
+        border: 5px solid rgb(255,255,255, 0.5);
+      }
+      .personal {
+        top: 50px;
+      }
+      .home {
+        top: 95px;
+      }
+      .students {
+        top: 140px;
+      }
+      .idea {
+        top: 185px;
+      }
+      .vacancy {
+        top: 230px;
+      }
+      .news {
+        top: 275px;
+      }
+      .navbar-menu.hide-menu a{
+          right: -7.5rem;
+      }
+      nav.hide-menu a{
+          padding:0.1rem 1rem 0.1rem 0.5rem;
+          width: 10rem;
+          column-gap: 1rem;
+      }
+  }

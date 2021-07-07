@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/group.css">
+    <link rel="stylesheet" href="./css/modal.css">
 
     <!-- Script -->
     
@@ -41,4 +42,5 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="../js/group.js"></script>
 <script src="../js/main.js"></script>
+<script src="../js/modal.js"></script>
 </html>

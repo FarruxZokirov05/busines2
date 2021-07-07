@@ -588,7 +588,7 @@
     <div class="container mx-auto news-content">
         <h1 class="header-text-all-section">Yangiliklar</h1>
         <div class="news-content-main">
-            <a href="#" class="news-content-card">
+            <a href="#" data-modal="#1" class="news-content-card modal__trigger">
                 <div class="img-content-card">
                     <img src="../images/img4.png" alt="">
                 </div>
@@ -599,6 +599,47 @@
                 
                 <p>“OAV ishiga aralashib, u noto‘g‘ri, bu to‘g‘ri deyish davlatning ishi emas” </p>
             </a>
+
+
+            <!-- Modal oyina -->
+            <div id="1" class="modal modal--align-top modal__bg" role="dialog" aria-hidden="true">
+                    <div class="modal__dialog">
+                        <div class="modal__content">
+                            <h1>“OAV ishiga aralashib, u noto‘g‘ri, bu to‘g‘ri deyish davlatning ishi emas”</h1>
+                            <div class="modal-content">
+                                <div class="modal-content-img">
+                                    <img src="../images/img4.png" alt="">
+                                </div>
+                                    <h3>ikkinchi sarlavha uchun</h3>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>                            
+                                    
+                            </div>
+                            <div class="modal-icons">
+                                <div class="icon-modal">
+                                    <span class="iconify" data-icon="emojione-monotone:eye-in-speech-bubble" data-inline="false"></span>
+                                    23
+                                </div>
+                                <div class="icon-modal">
+                                    26 Fevral 2021
+                                </div>
+                                <a class="icon-modal">
+                                <span class="iconify" data-icon="bi:hand-thumbs-up" data-inline="false"></span>
+                                    500
+                                </a>
+                            </div>
+                            
+                            <!-- modal close button -->
+                            <a href="" class="modal__close demo-close">
+                                <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"/><path d="M0 0h24v24h-24z" fill="none"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
             <a href="#" class="news-content-card">
                 <div class="img-content-card">
                     <img src="../images/img4.png" alt="">
@@ -632,7 +673,7 @@
                 
                 <p>“OAV ishiga aralashib, u noto‘g‘ri, bu to‘g‘ri deyish davlatning ishi emas” </p>
             </a>
-            <a href="#" class="news-content-card">
+            <a href="#"  class="news-content-card ">
                 <div class="img-content-card">
                     <img src="../images/img3.png" alt="">
                 </div>
@@ -643,7 +684,7 @@
                 
                 <p>“OAV ishiga aralashib, u noto‘g‘ri, bu to‘g‘ri deyish davlatning ishi emas” </p>
             </a>
-            <a href="#" class="news-content-card">
+            <a href="#"   class="news-content-card">
                 <div class="img-content-card">
                     <img src="../images/img2.png" alt="">
                 </div>
@@ -668,6 +709,8 @@
             <a href="#"><li><span class="iconify" data-icon="bx:bxs-arrow-to-right" data-inline="false"></span></li></a>
 
         </ul>
+    
+
     </div>
 
 </section>
@@ -729,7 +772,10 @@
             </div>
         </div>
 
+        
+
     </div>
+
 </section>
 
 <script>

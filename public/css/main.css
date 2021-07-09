@@ -30,6 +30,7 @@ html {
 body{
     overflow-x: hidden;
 }
+/* 
 .section-testimonials{
     height: 100vh;
     width:100%;
@@ -151,7 +152,8 @@ body{
 .testimonial__photo{
     width:auto;
     height: 100%;
-}
+} */
+
 
 /* Section two */
 .section-two-content{
@@ -756,7 +758,7 @@ border-radius: 5px;
 /* Media max 1536px  */
 @media(max-width: 1536px){
 
-    .section-testimonials{
+    /* .section-testimonials{
         padding-top: 2.5rem;
     }
     .slider{
@@ -811,7 +813,7 @@ border-radius: 5px;
     }
     .testimonial__img{
             width: 45%;
-    }
+    } */
 
     /* Section two */
 .section-two-content{
@@ -1168,7 +1170,7 @@ border-radius: 5px;
 /* Media max 1280px  */
 @media(max-width: 1280px){
 
-    .section-testimonials{
+    /* .section-testimonials{
         padding-top: 2rem;
     }
     .slider{
@@ -1223,7 +1225,7 @@ border-radius: 5px;
     }
     .testimonial__img{
             width: 45%;
-    }
+    } */
 
 
      /* Section two */
@@ -1574,7 +1576,7 @@ border-radius: 5px;
 /* Media max 1280px  */
 @media(max-width: 1024px){
 
-    .section-testimonials{
+    /* .section-testimonials{
         padding-top: 2rem;
         border-bottom: 3px solid rgb(0, 0,0, 0 );
     }
@@ -1632,7 +1634,7 @@ border-radius: 5px;
     }
     .testimonial__img{
             width: 45%;
-    }
+    } */
 
 
      /* Section two */
@@ -1985,7 +1987,7 @@ border-radius: 5px;
 /* Media max 768px  */
 @media(max-width: 768px){
 
-    .section-testimonials{
+    /* .section-testimonials{
         padding-top: 1.5rem;
         padding-bottom: 2rem;
     }
@@ -2043,7 +2045,7 @@ border-radius: 5px;
     }
     .testimonial__img{
             width: 45%;
-    }
+    } */
 
 
      /* Section two */
@@ -2408,7 +2410,7 @@ border-radius: 5px;
 /* Media max 768px  */
 @media(max-width: 648px){
 
-    .section-testimonials{
+    /* .section-testimonials{
         padding-top: 1.5rem;
         height: auto;
         padding-bottom: 5rem;
@@ -2470,7 +2472,7 @@ border-radius: 5px;
     }
     .testimonial__img{
             width: 60%;
-    }
+    } */
 
 
     /* Section two */

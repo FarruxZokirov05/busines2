@@ -8,7 +8,7 @@
     <div class="container mx-auto">
         <x-logo/>
         <x-navbar/>
-        <div class="slider">
+        <!-- <div class="slider">
             
         <div class="slider__slides">
             <div class="slider__slide slider__slide--1">
@@ -68,7 +68,88 @@
             </div>
         </div>
 
-    </div>
+     </div> -->
+
+        <div id="section-1">
+            <div class="content-slider">
+            <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+            <input type="radio" id="banner2" class="sec-1-input" name="banner">
+            <input type="radio" id="banner3" class="sec-1-input" name="banner">
+            <input type="radio" id="banner4" class="sec-1-input" name="banner">
+                <div class="slider">
+                    <div id="top-banner-1" class="banner">
+                        <div class="banner-inner-wrapper">
+                            <div class="testimonial__img">
+                                <img class="testimonial__photo" src="../images/img1.png" alt="Tanya Sinclair">
+                            </div>
+                            <blockquote class="testimonial__text">
+                                <h1>Muhammad Ali Eshonqulov</h1>
+                                <p class="">
+                                    I’ve been interested in coding for a while but never taken the jump, until now.
+                                    I couldn’t recommend this course enough. I’m now in the job of my dreams and so
+                                    excited about the future.
+                                </p>
+                                
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div id="top-banner-2" class="banner">
+                        <div class="banner-inner-wrapper">
+                            <div class="testimonial__img">
+                                <img class="testimonial__photo" src="../images/img1.png" alt="Tanya Sinclair">
+                            </div>
+                            <blockquote class="testimonial__text">
+                                <h1>Muhammad Ali Eshonqulov</h1>
+                                <p class="">
+                                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                
+                                </p>
+                                
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div id="top-banner-3" class="banner">
+                        <div class="banner-inner-wrapper">
+                            <div class="testimonial__img">
+                                <img class="testimonial__photo" src="../images/img1.png" alt="Tanya Sinclair">
+                            </div>
+                            <blockquote class="testimonial__text">
+                                <h1>Muhammad Ali Eshonqulov</h1>
+                                <p class="">
+                                    I’ve been interested in coding for a while but never taken the jump, until now.
+                                    I couldn’t recommend this course enough. I’m now in the job of my dreams and so
+                                    excited about the future.
+                                </p>
+                                
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div id="top-banner-4" class="banner">
+                        <div class="banner-inner-wrapper">
+                            <div class="testimonial__img">
+                                <img class="testimonial__photo" src="../images/img1.png" alt="Tanya Sinclair">
+                            </div>
+                            <blockquote class="testimonial__text">
+                                <h1>Muhammad Ali Eshonqulov</h1>
+                                <p class="">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                
+                                </p>
+                                
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <nav>
+                    <div class="controls">
+                        <label for="banner1"><span class="progressbar"><span class="progressbar-fill"></span></span><span class="num-prog">01</span> Muhammad Ali Eshonqulov</label>
+                        <label for="banner2"><span class="progressbar"><span class="progressbar-fill"></span></span><span class="num-prog">02</span> Muhammad Ali Eshonqulov</label>
+                        <label for="banner3"><span class="progressbar"><span class="progressbar-fill"></span></span><span class="num-prog">03</span> Muhammad Ali Eshonqulov</label>
+                        <label for="banner4"><span class="progressbar"><span class="progressbar-fill"></span></span><span class="num-prog">04</span> Muhammad Ali Eshonqulov</label>
+                    </div>
+                </nav>
+            </div>
+        </div>
     
     </div>
   </section>

@@ -22,3 +22,13 @@ Route::get('/main', function () {
 Route::get('/group', function () {
     return view('group');
 });
+
+Route::get('/user', function () {
+    return view('user.index');
+});
+Route::get('/vacancy', function () {
+    return view('user.vacancy');
+});
+Route::get('/idea', function () {
+    return view('user.idea');
+});
